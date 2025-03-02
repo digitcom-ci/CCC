@@ -209,7 +209,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     width: 100%;
-    max-width: 250px;
+    max-width: 300px;
     overflow: hidden;
     transform: translateY(50px);
     opacity: 0;
