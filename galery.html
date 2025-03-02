@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil | CCC</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Menu Hamburger -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="images/logob3.png" alt="logo">
+        </div>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="galery.html">Galerie</a></li>
+            <li><a href="artist.html">Artistes</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="ccc1">
+        <div class="ccc1-container">
+            <img src="images/logoa2.png" alt="Image 1">
+        </div>
+    </section>
+
+    <!-- Section Actualité des Artistes -->
+    <section class="actualites">
+        <h2>Actualités des Artistes</h2>
+        <div class="cards-container">
+            <div class="card" onclick="window.location.href='actualite1.html'">
+                <img src="images/tableau1.jpeg" alt="Artiste 1">
+                <div class="card-content">
+                    <h3>Titre de l'actualité 1</h3>
+                    <p>Sous-titre de l'actualité 1</p>
+                </div>
+            </div>
+            <div class="card" onclick="window.location.href='actualite2.html'">
+                <img src="images/corinne.jpeg" alt="Artiste 2">
+                <div class="card-content">
+                    <h3>Titre de l'actualité 2</h3>
+                    <p>Sous-titre de l'actualité 2</p>
+                </div>
+            </div>
+            <div class="card" onclick="window.location.href='actualite3.html'">
+                <img src="images/poemea2.jpeg" alt="Artiste 3">
+                <div class="card-content">
+                    <h3>Titre de l'actualité 3</h3>
+                    <p>Sous-titre de l'actualité 3</p>
+                </div>
+            </div>
+            <div class="card" onclick="window.location.href='actualite4.html'">
+                <img src="images/diouma.jpeg" alt="Artiste 4">
+                <div class="card-content">
+                    <h3>Titre de l'actualité 4</h3>
+                    <p>Sous-titre de l'actualité 4</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-logo">
+            <img src="images/logoa3.png" alt="Logo">
+        </div>
+        <div class="footer-socials">
+            <a href="https://www.facebook.com" target="_blank" class="social-icon">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank" class="social-icon">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" class="social-icon">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+    </footer>            
+
+    <script src="script.js"></script>
+</body>
+</html>
