@@ -371,6 +371,21 @@ body {
         width: 100%; /* Sur mobile, chaque image occupe toute la largeur */
         margin-bottom: 15px; /* Ajoute un espace entre les images */
     }
+    
+    /* Carte */
+    .card {
+        background-color: white;
+        border-radius: 0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        width: 100%;
+        max-width: 300px;
+        overflow: hidden;
+        transform: translateY(50px);
+        opacity: 0;
+        transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+        margin-bottom: 20px;
+    }
 }
 
 /* Footer */
