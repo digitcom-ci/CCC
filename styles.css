@@ -173,6 +173,31 @@ body {
         transform: scale(1.2);
         color: #0e89db; /* Bleu pour Twitter, change si besoin */
     }
+    
+    /* Section Hero */
+    .hero {
+        position: relative;
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: #FFF;
+        overflow: hidden;
+        text-shadow: 0 1px 1px rgb(0, 0, 0);
+    }
+
+    .hero-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 70vh;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed; /* Effet de parallaxe */
+        transition: background-image 1s ease-in-out;
+    }
 }
 
 /* Section Actualités */
