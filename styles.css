@@ -174,11 +174,6 @@ body {
         transform: scale(1.2);
         color: #0e89db; /* Bleu pour Twitter, change si besoin */
     }
-    
-    .hero-image {
-        height: 50vh; /* 50% de la hauteur de la fenêtre */
-        object-fit: cover; /* Maintient le ratio de l'image tout en couvrant l'espace */
-    }
 }
 
 /* Section Actualités */
