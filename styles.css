@@ -178,7 +178,7 @@ body {
     .hero {
         position: relative;
         widht: 50%;
-        height: 70%;
+        height: 70vh;
         display: flex;
         align-items: center;
         justify-content: center;
