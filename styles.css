@@ -191,8 +191,8 @@ body {
         position: absolute;
         top: 0;
         left: 0;
-        width: 50%;
-        height: 70vh;
+        width: 100%;
+        height: 70%;
         background-size: cover;
         background-position: center;
         background-attachment: fixed; /* Effet de parallaxe */
